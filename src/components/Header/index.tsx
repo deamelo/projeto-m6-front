@@ -4,11 +4,11 @@ const Header = () => {
     return (
         <NavBar>
             <figure>
-                <img src="" alt="Motors shop" />
+                <img src="Motors shop.png" alt="Motors shop" />
             </figure>
             <nav>
                 <figure>
-                    <img src="" alt="Nav" />
+                    <img src="bars.png" alt="Nav" />
                 </figure>
             </nav>
         </NavBar>
