@@ -1,16 +1,12 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import InitSection from "./components/InitSection";
-import ProductTypeList from "./components/ProductTypeList";
+import Routes from "./routes";
 
 function App() {
   return (
     <>
       <Header />
-      <InitSection />
-      <ProductTypeList productType="Leilão" />
-      <ProductTypeList productType="Carros" />
-      <ProductTypeList productType="Motos" />
+      <Routes />
       <Footer />
     </>
   );
